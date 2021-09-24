@@ -1,0 +1,91 @@
+body {
+  font-family: 'Lucida Sans Unicode';
+  background: #4CA1AF;
+  background: -webkit-linear-gradient(to left, #4CA1AF , #C4E0E5);
+  background: linear-gradient(to left, #4CA1AF , #C4E0E5);
+  font-size: 1.1rem;
+}
+
+button {
+  margin: 0 10px 0 10px;
+  border-radius: 10px;
+  background-color: silver;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.card, .card-red {
+  height: 90px;
+  width: 60px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+
+}
+
+.card-red {
+  color: red;
+  font-size: 1.4rem;
+}
+
+.cards {
+  margin: 0 auto;
+}
+
+.input-bet {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.placeBet {
+  position: relative;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  width: 5rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.open {
+  width: 4rem;
+
+}
+
+.newGame {
+  background-color: rgb(250, 249, 238);
+}
+
+.continue {
+  margin-top: 1rem;
+}
